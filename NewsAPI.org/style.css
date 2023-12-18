@@ -1,0 +1,113 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  .header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4px;
+  }
+  .icon {
+    width: 40.29px;
+    height: 40.29px;
+    background: #e84848;
+    border-radius: 50%;
+  }
+  .newsapi {
+    font-size: xxx-large;
+  }
+  .org {
+    font-size: xxx-large;
+  }
+
+  .line{
+      height: 8px;
+      border: 1px solid black;
+  }
+  #inData{
+      padding-inline: 2rem;
+      height: 40px;
+      border: none; 
+      opacity: 0.5;
+  }
+  .searchicon{
+      margin-top: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  #Btn{
+      height: 40px;
+      width: 40px;
+      background: #e84848;
+      color: white;
+      border: none;
+      margin-left: 13.91rem;
+      cursor: pointer;
+  }
+  .searchicon i{
+      font-size: medium;
+      margin-left: -14.8rem;
+  }
+  .cardData{
+      display: grid;
+      justify-content: center;
+      width: 60%;
+      grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+      margin: auto;
+      margin-top: 52px;
+  }
+  .box{
+      width: 300px;
+      background-color:rgb(232, 231, 231);
+      padding: 11px;
+      margin-top: 25px;
+      margin: 25px;
+      cursor: pointer;
+  }
+  .box img {
+      width: 100%;
+      height: 45%;
+  }
+  .box h3{
+      margin-top: 3px;
+      padding: 2px;
+  }
+  .box p{
+      margin-top: 10px;
+      padding: 3px;
+  }
+  .content{
+      position: absolute;
+      color: black;
+      margin-top: 122px;
+      margin-left: 13rem;
+  }
+  
+  @media only screen and (max-width:830px){
+      .header {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 2px;
+      }
+  
+      .icon {
+          width: 20.29px;
+          height: 20.29px;
+          background: #e84848;
+          border-radius: 50%;
+        }
+  }
+  
+  @media only screen and (min-width:425px) and (max-width:1024px){
+      .box{
+          border: 2px solid black;
+          width: 100px;
+}
+}
